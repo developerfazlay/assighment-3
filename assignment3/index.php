@@ -27,7 +27,7 @@ $SubjectD = 90;
 $total = ($SubjectA+$SubjectB+$SubjectC+$SubjectD);
 $average = $total/4;
 
-echo "Rishita's average mark is = {$average}";
+echo "Rishita's average average is = {$average}";
 
 echo "<br>";
 echo "<br>";
@@ -38,33 +38,33 @@ echo "<br>";
 
 // Grade Message
 
-$mark = 85;
 
-if($mark>=80 && $mark<=100){
+
+if($average>=80 && $average<=100){
     echo "You got: A+";
 }
 
-elseif($mark>=70 && $mark<=79){
+elseif($average>=70 && $average<=79){
     echo "You got: A";
 }
 
-elseif($mark>=60 && $mark<=69){
+elseif($average>=60 && $average<=69){
     echo "You got: A-";
 }
 
-elseif($mark>=50 && $mark<=59){
+elseif($average>=50 && $average<=59){
     echo "You got: B";
 }
 
-elseif($mark>=40 && $mark<=49){
+elseif($average>=40 && $average<=49){
     echo "You got: C";
 }
 
-elseif($mark>=0 && $mark<=39){
+elseif($average>=0 && $average<=39){
     echo "Sorry, Failed!";
 }
 else{
-    echo "You entered wrong mark, please enter 1 - 100";
+    echo "You entered wrong average, please enter 1 - 100";
 }
 
 
